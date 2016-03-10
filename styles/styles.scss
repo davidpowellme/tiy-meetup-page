@@ -18,10 +18,19 @@ $ind-col-width: (($tot-width) - ($gut-width) * ($num-col - 1)) / $num-col;
   box-sizing: border-box;
 }
 
+body {
+  background: #F4F4F4;
+}
+
 main {
   margin: 0 auto;
   overflow: hidden;
   width: 75%;
+
+  section,
+  aside {
+    background: #fff;
+  }
 }
 
 header {
@@ -29,6 +38,7 @@ header {
     height: 100%;
   }
 }
+
 
 
 //large screen styles
