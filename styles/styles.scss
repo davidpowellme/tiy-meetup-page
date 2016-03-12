@@ -1,6 +1,10 @@
 $tot-width: 100%;
 $num-col: 12;
 $gut-width: 2%;
+$accent-color: #E0393E;
+$a-color: #6FBBB7;
+$text-bg: #eee;
+$block-color: #fff;
 
 $ind-col-width: (($tot-width) - ($gut-width) * ($num-col - 1)) / $num-col;
 
@@ -21,16 +25,25 @@ $ind-col-width: (($tot-width) - ($gut-width) * ($num-col - 1)) / $num-col;
 body {
   background: #F4F4F4;
 }
+a {
+  color: $a-color;
+  text-decoration: none;
+}
+
+nav,
+main > section,
+main > aside {
+  background: $block-color;
+}
+
+nav {
+  overflow: hidden;
+}
 
 main {
   margin: 0 auto;
   overflow: hidden;
   width: 75%;
-
-  section,
-  aside {
-    background: #fff;
-  }
 }
 
 header {

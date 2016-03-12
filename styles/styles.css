@@ -4,13 +4,22 @@
 body {
   background: #F4F4F4; }
 
+a {
+  color: #6FBBB7;
+  text-decoration: none; }
+
+nav,
+main > section,
+main > aside {
+  background: #fff; }
+
+nav {
+  overflow: hidden; }
+
 main {
   margin: 0 auto;
   overflow: hidden;
   width: 75%; }
-  main section,
-  main aside {
-    background: #fff; }
 
 header img {
   height: 100%; }
