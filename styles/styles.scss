@@ -218,9 +218,11 @@ header {
     &:nth-child(2) {
       margin-top: 0.2rem;
 
-      a {
+      a:first-child {
+        background: #fff;
         border: 1px solid #e6e6e6;
         border-bottom: none;
+        padding: 1rem;
       }
     }
 
@@ -233,6 +235,21 @@ header {
     border: 2px solid #eee;
     padding: 0.3rem;
   }
+}
+
+//right sidebar
+
+.right-sidebar {
+  overflow: hidden;
+
+  div {
+    overflow: hidden;
+
+    img {
+      float: right;
+      width: 30px;
+    }
+}
 }
 
 //footer

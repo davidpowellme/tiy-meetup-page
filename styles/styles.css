@@ -129,15 +129,25 @@ header ul {
     text-transform: uppercase; }
   .main .tbar:nth-child(2) {
     margin-top: 0.2rem; }
-    .main .tbar:nth-child(2) a {
+    .main .tbar:nth-child(2) a:first-child {
+      background: #fff;
       border: 1px solid #e6e6e6;
-      border-bottom: none; }
+      border-bottom: none;
+      padding: 1rem; }
   .main .tbar i {
     color: black; }
 .main .btn {
   background: #f4f4f4;
   border: 2px solid #eee;
   padding: 0.3rem; }
+
+.right-sidebar {
+  overflow: hidden; }
+  .right-sidebar div {
+    overflow: hidden; }
+    .right-sidebar div img {
+      float: right;
+      width: 30px; }
 
 footer {
   background: #353E48; }
