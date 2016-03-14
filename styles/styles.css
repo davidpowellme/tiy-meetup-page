@@ -83,11 +83,22 @@ header ul {
 .left-sidebar .prof-photo {
   margin: 0 auto;
   width: 180px; }
-.left-sidebar div.btn {
+.left-sidebar .btn {
   text-align: center;
-  padding: 0.8em; }
-  .left-sidebar div.btn:nth-child(2) {
-    margin-top: 1em; }
+  padding: 0.6em; }
+  .left-sidebar .btn:nth-child(4) {
+    margin-top: 0.5rem; }
+.left-sidebar ul {
+  font-size: 13px;
+  padding: 0;
+  overflow: hidden; }
+.left-sidebar li.line {
+  border-top: 1px solid #eee;
+  list-style: none;
+  overflow: hidden;
+  padding-top: 6px; }
+.left-sidebar .tags li {
+  display: inline; }
 
 footer {
   background: #353E48; }
