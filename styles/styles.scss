@@ -193,6 +193,45 @@ header {
 
   ul {
     list-style: none;
+    padding: 0;
+  }
+
+  h2 {
+    color: #000;
+    font-size: 2rem;
+    margin-top: 0;
+  }
+
+  img {
+    width: 30px;
+  }
+  
+  .tbar {
+    background: #f4f4f4;
+    display: block;
+    padding: 1rem;
+
+    &:first-child {
+      text-transform: uppercase;
+    }
+
+    &:nth-child(2) {
+      margin-top: 0.2rem;
+
+      a {
+        border: 1px solid #e6e6e6;
+        border-bottom: none;
+      }
+    }
+
+    i {
+      color: black;
+    }
+  }
+  .btn {
+    background: #f4f4f4;
+    border: 2px solid #eee;
+    padding: 0.3rem;
   }
 }
 

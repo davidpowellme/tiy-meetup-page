@@ -113,7 +113,31 @@ header ul {
 .main article {
   overflow: hidden; }
 .main ul {
-  list-style: none; }
+  list-style: none;
+  padding: 0; }
+.main h2 {
+  color: #000;
+  font-size: 2rem;
+  margin-top: 0; }
+.main img {
+  width: 30px; }
+.main .tbar {
+  background: #f4f4f4;
+  display: block;
+  padding: 1rem; }
+  .main .tbar:first-child {
+    text-transform: uppercase; }
+  .main .tbar:nth-child(2) {
+    margin-top: 0.2rem; }
+    .main .tbar:nth-child(2) a {
+      border: 1px solid #e6e6e6;
+      border-bottom: none; }
+  .main .tbar i {
+    color: black; }
+.main .btn {
+  background: #f4f4f4;
+  border: 2px solid #eee;
+  padding: 0.3rem; }
 
 footer {
   background: #353E48; }
