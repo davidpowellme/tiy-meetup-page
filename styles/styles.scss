@@ -141,7 +141,7 @@ header {
 
   .btn {
     text-align: center;
-    padding: 0.6em;
+    padding: 0.6rem;
 
     &:nth-child(4) {
       margin-top: 0.5rem;
@@ -165,6 +165,35 @@ header {
   .tags li {
     display: inline;
   }
+  .organizers {
+    overflow: hidden;
+    img {
+      float: right;
+    }
+    a {
+      line-height: 1.6;
+
+      &:first-child {
+        font-weight: bold;
+      }
+    }
+    .btn {
+      margin: 1rem 0 0 0;
+    }
+  }
+}
+
+//main
+
+.main {
+
+  article {
+    overflow: hidden;
+  }
+
+  ul {
+    list-style: none;
+  }
 }
 
 //footer
@@ -177,6 +206,7 @@ footer {
 
 .btn {
   background: #EEEEEE;
+  display: block;
 
 }
 

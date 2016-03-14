@@ -85,7 +85,7 @@ header ul {
   width: 180px; }
 .left-sidebar .btn {
   text-align: center;
-  padding: 0.6em; }
+  padding: 0.6rem; }
   .left-sidebar .btn:nth-child(4) {
     margin-top: 0.5rem; }
 .left-sidebar ul {
@@ -99,12 +99,28 @@ header ul {
   padding-top: 6px; }
 .left-sidebar .tags li {
   display: inline; }
+.left-sidebar .organizers {
+  overflow: hidden; }
+  .left-sidebar .organizers img {
+    float: right; }
+  .left-sidebar .organizers a {
+    line-height: 1.6; }
+    .left-sidebar .organizers a:first-child {
+      font-weight: bold; }
+  .left-sidebar .organizers .btn {
+    margin: 1rem 0 0 0; }
+
+.main article {
+  overflow: hidden; }
+.main ul {
+  list-style: none; }
 
 footer {
   background: #353E48; }
 
 .btn {
-  background: #EEEEEE; }
+  background: #EEEEEE;
+  display: block; }
 
 @media (min-width: 900px) {
   .col-lg-1 {
