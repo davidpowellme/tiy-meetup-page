@@ -97,7 +97,7 @@ nav {
 //main
 
 main {
-  margin: 0 auto;
+  margin: 0 auto 2.5rem auto;
   overflow: hidden;
   width: 75%;
 }
@@ -252,10 +252,50 @@ header {
 }
 }
 
+//pre-footer
+
+.footer1 {
+  background: #fff;
+  clear: both;
+  overflow: hidden;
+
+  article {
+    overflow: hidden;
+  }
+  .content-wrapper {
+    margin: 0 auto;
+    padding: 1rem;
+    width: 66.66%;
+  }
+
+  .cta-btn {
+    background: $accent-color;
+    border-radius: 2%;
+    color: #fff;
+    padding: 0.5rem 1rem;
+  }
+
+  .test-pic {
+    border-radius: 50%;
+    float: right;
+    width: 5rem;
+  }
+}
+
 //footer
 
 footer {
+  background: #353E48;
+  clear: both;
+  overflow: hidden;
+  
+  .footer {
+    margin: 0 auto;
+    width: 80%;
+  }
+  nav {
     background: #353E48;
+  }
 }
 
 //extra styles

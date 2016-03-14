@@ -57,7 +57,7 @@ nav {
     padding: 0.1em; }
 
 main {
-  margin: 0 auto;
+  margin: 0 auto 2.5rem auto;
   overflow: hidden;
   width: 75%; }
 
@@ -149,8 +149,35 @@ header ul {
       float: right;
       width: 30px; }
 
+.footer1 {
+  background: #fff;
+  clear: both;
+  overflow: hidden; }
+  .footer1 article {
+    overflow: hidden; }
+  .footer1 .content-wrapper {
+    margin: 0 auto;
+    padding: 1rem;
+    width: 66.66%; }
+  .footer1 .cta-btn {
+    background: #E0393E;
+    border-radius: 2%;
+    color: #fff;
+    padding: 0.5rem 1rem; }
+  .footer1 .test-pic {
+    border-radius: 50%;
+    float: right;
+    width: 5rem; }
+
 footer {
-  background: #353E48; }
+  background: #353E48;
+  clear: both;
+  overflow: hidden; }
+  footer .footer {
+    margin: 0 auto;
+    width: 80%; }
+  footer nav {
+    background: #353E48; }
 
 .btn {
   background: #EEEEEE;
