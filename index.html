@@ -4,21 +4,23 @@
 	<title>The Iron Yard Austin</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
 	<link rel="stylesheet" href="styles/styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 </head>
 <body>
 	<nav>
-		<div class="nav-wrapper col-lg-4">
+		<div class="main-nav col-lg-6">
+			<img src="http://img1.meetupstatic.com/img/94156887029318281691566697/logo.svg" alt="meetup logo">
 			<ul>
-				<li><img src="http://img1.meetupstatic.com/img/94156887029318281691566697/logo.svg" alt="meetup logo"></li>
-				<li><a href="#">Find a meetup group</a></li>
-				<li><a href="#">Start a meetup group</a></li>
-				<li><a href="#">Invite friends to join</a></li>
+				<li><a href="#">Find</a><br>a Meetup group</li>
+				<li><a href="#">Start</a><br>a Meetup group</li>
+				<li><a href="#">Invite</a><br>Friends to join</li>
 			</ul>
 		</div>
-		<div class="nav-wrapper col-lg-4">
+		<div class="nav-login col-lg-6">
 			<ul>
-				<li><a href="#">Messages</a></li>
-				<li><a href="#">Notifications</a></li>
+				<li><a href="#"><i class="fa  fa-commenting"></i> Messages</a></li>
+				<li><a href="#"><i class="fa fa-bell"></i> Notifications</a></li>
 				<li><img src="http://photos4.meetupstatic.com/photos/member/6/4/9/d/thumb_252805757.jpeg" alt="profile pic"></li>
 			</ul>
 		</div>
@@ -36,15 +38,15 @@
 				</ul>
 			</nav>			
 		</header>
-		<aside class="col-lg-3">
-			<article>
+		<aside class="col-lg-3 left-sidebar">
+			<article class="prof-photo">
 				<img src="http://photos1.meetupstatic.com/photos/event/8/6/8/8/global_435394440.jpeg" alt="TIY logo">
 			</article>
 			<article>
 				<h3><a href-"#">Austin, TX</a></h3>
 				<div>Founded Mar 19, 2015</div>
-				<div><a href="#">About us...</a></div>	
-				<div><a href="#">Invite Friends</a></div>
+				<div class="btn"><a href="#">About us...</a></div>	
+				<div class="btn"><a href="#">Invite Friends</a></div>
 				<ul>
 					<li><a href="#">Programmers and Designers</a></li>
 					<li>Group Reviews<a href="#"></a></li>
@@ -58,6 +60,7 @@
 				<h4><a href="#">Organizers</a></h4>
 				<img src="http://photos1.meetupstatic.com/photos/member/2/8/f/2/thumb_135970482.jpeg" alt="prof pic">
 				<span><a href="#">name</a>, <a href="#">name</a>, <a href="#">name</a></span>
+				<div class="btn"><a href="#">Contact</a></div>
 			</article>
 			<article>
 				<h5>We're About</h5>
@@ -79,7 +82,7 @@
 				</ul>
 			</article>
 		</aside>
-		<section class="col-lg-6">
+		<section class="col-lg-6 main">
 			<article>
 				<h2>Welcome!</h2>
 			</article>
@@ -180,7 +183,7 @@
 				</div>
 			</article>
 		</section>
-		<aside class="col-lg-3">
+		<aside class="col-lg-3 right-sidebar">
 			<article>
 				<h3>What's New</h3>
 			</article>
@@ -238,15 +241,17 @@
 		<section class="wrapper">
 			<a href="#">Start a Meetup group<a>
 			<a href="#">Logout</a>
-			<ul>
-				<li><a href="#">Help</a></li>
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">API</a></li>
-				<li><a href="#">Jobs</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Tech Blog</a></li>
-				<li><a href="#">Made in NYC</a></li>
-			</ul>
+			<nav class="col-lg-6">
+				<ul>
+					<li><a href="#">Help</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">API</a></li>
+					<li><a href="#">Jobs</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Tech Blog</a></li>
+					<li><a href="#">Made in NYC</a></li>
+				</ul>
+			</nav>
 			2016 Meetup <a href="#">Privacy</a> <a href="#">Terms</a>
 		</section>
 	</footer>

@@ -1,3 +1,6 @@
+html {
+  font-size: 16px; }
+
 * {
   box-sizing: border-box; }
 
@@ -11,10 +14,47 @@ a {
 nav,
 main > section,
 main > aside {
-  background: #fff; }
+  background: #fff;
+  color: #878787; }
 
 nav {
-  overflow: hidden; }
+  margin-bottom: 1em;
+  overflow: hidden;
+  color: #878787; }
+  nav img {
+    display: block;
+    float: left;
+    margin: 1em 0 0 1em;
+    width: 48px; }
+  nav .main-nav {
+    color: #878787;
+    float: left;
+    font-size: 0.85rem;
+    font-weight: 300;
+    margin: 0 0 0 -1em;
+    overflow: hidden; }
+    nav .main-nav a {
+      color: #E0393E;
+      font-size: 1.5rem;
+      font-weight: bold; }
+  nav .nav-login {
+    overflow: hidden; }
+    nav .nav-login ul {
+      float: right; }
+      nav .nav-login ul a {
+        color: #878787; }
+      nav .nav-login ul i {
+        color: #878787;
+        font-size: 1.75em; }
+      nav .nav-login ul img {
+        border-radius: 50%;
+        width: 30px; }
+  nav ul {
+    overflow: hidden; }
+  nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 0.1em; }
 
 main {
   margin: 0 auto;
@@ -23,6 +63,37 @@ main {
 
 header img {
   height: 100%; }
+header nav {
+  border-bottom: 1px solid #878787;
+  border-right: 1px solid #878787;
+  border-left: 1px solid #878787;
+  margin-top: -0.5em; }
+header ul {
+  margin-left: -2rem; }
+  header ul a {
+    color: #878787;
+    margin: 0.75em; }
+
+.left-sidebar,
+.main,
+.right-sidebar {
+  border: 1px solid #878787;
+  padding: 1rem; }
+
+.left-sidebar .prof-photo {
+  margin: 0 auto;
+  width: 180px; }
+.left-sidebar div.btn {
+  text-align: center;
+  padding: 0.8em; }
+  .left-sidebar div.btn:nth-child(2) {
+    margin-top: 1em; }
+
+footer {
+  background: #353E48; }
+
+.btn {
+  background: #EEEEEE; }
 
 @media (min-width: 900px) {
   .col-lg-1 {
