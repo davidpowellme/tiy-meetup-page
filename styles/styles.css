@@ -152,18 +152,18 @@ header ul {
 .footer1 {
   background: #fff;
   clear: both;
-  overflow: hidden; }
+  overflow: hidden;
+  padding: 2rem; }
   .footer1 article {
     overflow: hidden; }
   .footer1 .content-wrapper {
     margin: 0 auto;
-    padding: 1rem;
     width: 66.66%; }
   .footer1 .cta-btn {
     background: #E0393E;
     border-radius: 2%;
     color: #fff;
-    padding: 0.5rem 1rem; }
+    padding: 1rem; }
   .footer1 .test-pic {
     border-radius: 50%;
     float: right;

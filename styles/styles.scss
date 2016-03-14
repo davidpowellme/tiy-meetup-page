@@ -258,13 +258,14 @@ header {
   background: #fff;
   clear: both;
   overflow: hidden;
+  padding: 2rem;
+
 
   article {
     overflow: hidden;
   }
   .content-wrapper {
     margin: 0 auto;
-    padding: 1rem;
     width: 66.66%;
   }
 
@@ -272,7 +273,7 @@ header {
     background: $accent-color;
     border-radius: 2%;
     color: #fff;
-    padding: 0.5rem 1rem;
+    padding: 1rem;
   }
 
   .test-pic {
